@@ -16,7 +16,7 @@ floatFinPts = parseFloat(prompt("Please enter midterm pts (0-35): "));
 
 floatTotalPts = parseFloat(floatHwPts+floatMidPts+floatHwPts);
 
-intGradeOption = parseint(prompt("Please enter your choice of audit pass/fail or letter grade (1 or 2): "));
+intGradeOption = parseInt(prompt("Please enter your choice of audit pass/fail or letter grade (1 or 2): "));
 
 if (intGradeOption===1)
 {
